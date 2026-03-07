@@ -15,7 +15,7 @@ theme:
     code: Roboto Mono
   icon:
     logo: material/waves   # or your custom logo
-  custom_dir: overrides
+  custom_dir: docs/overrides
   features:
     - navigation.tabs
     - navigation.sections
@@ -31,7 +31,7 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
-  - javascripts/extra.js
+  - overrides/javascripts/extra.js
 
 markdown_extensions:
   - admonition
