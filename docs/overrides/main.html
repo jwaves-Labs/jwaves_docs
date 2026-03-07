@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    /* Force 100% void black everywhere */
+    body { background: #000000 !important; }
+  </style>
+{% endblock %}
+
+{% block header %}{% include "partials/header.html" %}{% endblock %}
+{% block footer %}{% include "partials/footer.html" %}{% endblock %}
