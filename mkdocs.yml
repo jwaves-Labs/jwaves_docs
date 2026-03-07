@@ -1,0 +1,62 @@
+site_name: jWaves Documentation
+site_description: Product documentation and knowledge base for the jWaves SaaS platform.
+site_url: https://jwaves-labs.github.io/jwaves_docs/
+repo_url: https://github.com/jwaves-Labs/jwaves_docs
+repo_name: jwaves-Labs/jwaves_docs
+
+theme:
+  name: material
+  language: en
+  palette:
+    - scheme: default
+      primary: teal
+      accent: indigo
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Overview: getting-started/index.md
+      - Account Setup: getting-started/account-setup.md
+      - First Workspace: getting-started/first-workspace.md
+  - User Guide:
+      - Overview: user-guide/index.md
+      - Projects: user-guide/projects.md
+      - Team Collaboration: user-guide/collaboration.md
+  - Admin:
+      - Overview: admin/index.md
+      - Organization Settings: admin/organization-settings.md
+      - Billing: admin/billing.md
+  - API:
+      - Overview: api/index.md
+      - Authentication: api/authentication.md
+  - FAQ: faq.md
+  - Changelog: changelog.md
+
+strict: true
