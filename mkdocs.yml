@@ -67,9 +67,4 @@ nav:
   - FAQ: faq.md
   - Changelog: changelog.md
 
-extra:
-social:
-  - icon: fontawesome/brands/github
-    link: https://github.com/yourusername/jwaves
-
 strict: true
