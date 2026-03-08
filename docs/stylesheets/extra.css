@@ -7,7 +7,7 @@
 
 [data-md-color-scheme="slate"] {
   /* === CORE VOID BACKGROUND === */
-  --md-default-bg-color: #000000;
+  --md-default-bg-color: rgb(17,24,28);
   --md-default-fg-color: #ffffff;
   --md-default-fg-color--light: #a0a0a0;
   --md-default-fg-color--lighter: #333333;
