@@ -7,7 +7,7 @@
 
 [data-md-color-scheme="slate"] {
   /* === CORE VOID BACKGROUND === */
-  --md-default-bg-color: rgb(17,24,28);
+  --md-default-bg-color: rgb(2,4,8);
   --md-default-fg-color: #ffffff;
   --md-default-fg-color--light: #a0a0a0;
   --md-default-fg-color--lighter: #333333;
@@ -42,7 +42,7 @@
 
 /* === GLOBAL OVERRIDES === */
 body {
-  background: #000000;
+  background: rgb(2,4,8);
 }
 
 .md-header {
@@ -52,7 +52,7 @@ body {
 }
 
 .md-main {
-  background: #000000;
+  background: rgb(2,4,8);
 }
 
 /* Huge hero-style titles on every page */
